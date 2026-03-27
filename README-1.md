@@ -488,15 +488,7 @@ cd droidforge
 # Open in Android Studio (desktop) for initial setup
 ```
 
-### Step 2 — Configure AI key
-Create `local.properties` and add:
-```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-```
-Reference it in `build.gradle.kts`:
-```kotlin
-buildConfigField("String", "ANTHROPIC_API_KEY", "\"${localProperties["ANTHROPIC_API_KEY"]}\"")
-```
+### removed step 2 because itbwas baout implementing Claude inside it or any ai. i never asked jt for that 
 
 ### Step 3 — Bundle AAPT2
 Download AAPT2 binary for ARM64 from the Android SDK build-tools and place at:
