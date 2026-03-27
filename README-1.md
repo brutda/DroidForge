@@ -11,7 +11,7 @@
 | **App Name** | DroidForge |
 | **Package** | `com.droidforge.ide` |
 | **Min SDK** | API 30 (Android 11) |
-| **Target SDK** | API 35 (Android 15) |
+| **Target SDK** |  (Android 17) |
 | **Language** | Kotlin (100%) |
 | **UI Toolkit** | Jetpack Compose (latest stable) |
 | **Theme** | Dark-first Material You (Dynamic Color / Material3) |
@@ -63,7 +63,7 @@ DroidForge is a **native Android IDE** that lets developers write Kotlin/Java, b
 
 | Component | Technology |
 |---|---|
-| Provider | Anthropic Claude API (`claude-sonnet-4-20250514`) |
+| Provider | bludosDevv, Google Gemini |
 | Mode | Fill-in-the-middle (FIM) completions + chat assistant |
 | Trigger | 600ms debounce after keystroke pause |
 | Context | Current file + open tabs (trimmed to 4096 tokens) |
